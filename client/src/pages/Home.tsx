@@ -361,9 +361,26 @@ export default function Home() {
               <div className="mb-6">
                 <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Poppins" }}>AI Voice & Text Suite</h3>
                 <p className="text-sm text-muted-foreground mb-4">Perfect for businesses with existing leads</p>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-bold">$2,999</span>
-                  <span className="text-muted-foreground">/month</span>
+                <div className="space-y-3 mb-6">
+                  <div>
+                    <p className="text-xs text-muted-foreground mb-1">3-Month Upfront</p>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-bold">$3,000</span>
+                      <span className="text-muted-foreground text-sm">total</span>
+                    </div>
+                  </div>
+                  <div className="border-t border-border pt-3">
+                    <p className="text-xs text-muted-foreground mb-1">Monthly</p>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-bold">$1,500</span>
+                      <span className="text-muted-foreground text-sm">/month</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-cyan-500/10 border border-cyan-500/30 rounded-lg p-3 mb-6">
+                  <p className="text-xs font-semibold text-cyan-400 flex items-center gap-2">
+                    <span>✓</span> 30-Day Money-Back Guarantee
+                  </p>
                 </div>
               </div>
               <ul className="space-y-3 mb-8">
@@ -423,9 +440,26 @@ export default function Home() {
               <div className="mb-6">
                 <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Poppins" }}>Complete Lead-to-Booking System</h3>
                 <p className="text-sm text-muted-foreground mb-4">Full-funnel solution with lead generation</p>
-                <div className="flex items-baseline gap-2">
-                  <span className="text-4xl font-bold">$7,999</span>
-                  <span className="text-muted-foreground">/month</span>
+                <div className="space-y-3 mb-6">
+                  <div>
+                    <p className="text-xs text-muted-foreground mb-1">3-Month Upfront</p>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-bold">$5,000</span>
+                      <span className="text-muted-foreground text-sm">total</span>
+                    </div>
+                  </div>
+                  <div className="border-t border-border pt-3">
+                    <p className="text-xs text-muted-foreground mb-1">Monthly</p>
+                    <div className="flex items-baseline gap-2">
+                      <span className="text-3xl font-bold">$2,000</span>
+                      <span className="text-muted-foreground text-sm">/month</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-purple-500/10 border border-purple-500/30 rounded-lg p-3 mb-6">
+                  <p className="text-xs font-semibold text-purple-400 flex items-center gap-2">
+                    <span>✓</span> 90-Day Money-Back Guarantee
+                  </p>
                 </div>
               </div>
               <ul className="space-y-3 mb-8">
