@@ -37,7 +37,7 @@ export default function Home() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <img 
-            src="https://private-us-east-1.manuscdn.com/sessionFile/6kbbxUjCZWE1ZcDYqCRuk8/sandbox/pm3bcTdaU1kLfiPYDXllLL-img-1_1772045968000_na1fn_aGVyby1ncmFkaWVudA.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNmtiYnhVakNaV0UxWmNEWXFDUnVrOC9zYW5kYm94L3BtM2JjVGRhVTFrTGZpUFlEWGxsTEwtaW1nLTFfMTc3MjA0NTk2ODAwMF9uYTFmbl9hR1Z5YnkxbmNtRmthV1Z1ZEEucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=KkZGUbteL1n26slvp~JHzIoEd-5-IbWOgn5KENKbvALS9ErtqLY0nSVNZ7VrqgjEGQ4KaVhXzY7AIAp3X4fFyYSSQtXRVhIfITO-khl8JMboZ5hGqLXoT6WLD9UEpBgisZ4D1Xxg4RrsiAJ6xMOq8XkGdy7MHc8XZd~fxOAyPBgdvy0v22PIhQ0T7b9atj9mChryRcOec3CeEZP10p6vdyIVLsgMCY0EgNcvDvbwjGQHDlMJfJr32CusdrqzvZv7UyZPUKhmZCmrBYg0Fy~QL2e-jJwQpkLHl17SWJAAg~-K5rvD25SGQEZ3Ux8UqJVpPxuTDSOYf2mfrDrp3nGSnQ__"
+            src="https://private-us-east-1.manuscdn.com/sessionFile/6kbbxUjCZWE1ZcDYqCRuk8/sandbox/pm3bcTdaU1kLfiPYDXllLL-img-4_1772045957000_na1fn_bWV0YS1hZHMtc2VjdGlvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNmtiYnhVakNaV0UxWmNEWXFDUnVrOC9zYW5kYm94L3BtM2JjVGRhVTFrTGZpUFlEWGxsTEwtaW1nLTRfMTc3MjA0NTk1NzAwMF9uYTFmbl9iV1YwWVMxaFpITXRjMlZqZEdsdmJnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=FQmi8I3gb-ureBpk~RzWoxbD3nKXJ9buLl-aEVR5iitRXqXdMSdec6IDk~cigXYy2BSMXPJ523VW2O~a6JBh8A-y3dOzzaxK2uTp5IBX5dM8u3fRsLMFkm8JDxSl-mtzrJ0Odsakj1d3KnvFpC47CBBogQxWi-KFys581wHpE7oJzeA9fabpkZrqUgbtEUCrZfTcyeRgFBT5icxY~990tGRr8PFRmxrRMWIlUQxaQxd-C4pyqNLl4s~2s36fWSdmYMejRszT6ajMgJETrLpdqr2iWV1CWjr3W~6quD4SOhNZRk7-cWw3DBIciCZTKyZzhU8cMeH1GHnsNGODUzVKXQ__"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
@@ -56,10 +56,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold">
-                Start Free Trial
-              </Button>
-              <Button size="lg" variant="outline">
-                Watch Demo
+                Book a Free Consultation Call
               </Button>
             </div>
           </div>
@@ -357,10 +354,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-black font-semibold">
-              Start Free Trial
-            </Button>
-            <Button size="lg" variant="outline">
-              Schedule Demo
+              Book a Free Consultation Call
             </Button>
           </div>
         </div>
