@@ -514,6 +514,175 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Feature Comparison Table */}
+      <section className="py-20 border-t border-border bg-card/30">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-4xl md:text-5xl font-bold mb-4"
+              style={{ fontFamily: "Poppins" }}
+            >
+              Feature Comparison
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              See exactly what's included in each package.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="border-b-2 border-border">
+                  <th className="text-left py-4 px-4 font-bold" style={{ fontFamily: "Poppins" }}>Feature</th>
+                  <th className="text-center py-4 px-4 font-bold" style={{ fontFamily: "Poppins" }}>AI Voice & Text Suite</th>
+                  <th className="text-center py-4 px-4 font-bold" style={{ fontFamily: "Poppins" }}>Complete Lead-to-Booking</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  { feature: "Inbound Receptionist Agent (24/7)", package1: true, package2: true },
+                  { feature: "Outbound Follow-up & Cold Calling", package1: true, package2: true },
+                  { feature: "AI Text & SMS Agents", package1: true, package2: true },
+                  { feature: "AI-Powered CRM & Lead Management", package1: true, package2: true },
+                  { feature: "Lead Qualification & Scoring", package1: true, package2: true },
+                  { feature: "Appointment Booking & Calendar Integration", package1: true, package2: true },
+                  { feature: "Real-time Analytics & Reporting", package1: true, package2: true },
+                  { feature: "Meta Ads Campaign Management", package1: false, package2: true },
+                  { feature: "AI-Powered Lead Generation", package1: false, package2: true },
+                  { feature: "Intelligent Lead Routing from Ads", package1: false, package2: true },
+                  { feature: "Campaign Optimization & A/B Testing", package1: false, package2: true },
+                  { feature: "ROI Tracking & Performance Analytics", package1: false, package2: true },
+                  { feature: "Dedicated Account Manager", package1: false, package2: true },
+                  { feature: "Priority Support", package1: false, package2: true },
+                  { feature: "Custom Integration Setup", package1: false, package2: true },
+                ].map((row, idx) => (
+                  <tr key={idx} className="border-b border-border hover:bg-muted/30 transition">
+                    <td className="py-4 px-4 text-sm">{row.feature}</td>
+                    <td className="py-4 px-4 text-center">
+                      {row.package1 ? (
+                        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-cyan-400 text-black font-bold">✓</span>
+                      ) : (
+                        <span className="text-muted-foreground">—</span>
+                      )}
+                    </td>
+                    <td className="py-4 px-4 text-center">
+                      {row.package2 ? (
+                        <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-purple-400 text-white font-bold">✓</span>
+                      ) : (
+                        <span className="text-muted-foreground">—</span>
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works Timeline */}
+      <section className="py-20 border-t border-border">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-4xl md:text-5xl font-bold mb-4"
+              style={{ fontFamily: "Poppins" }}
+            >
+              How It Works
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Your AI agents learn and improve throughout your commitment period.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* Package 1 Timeline */}
+            <div>
+              <h3 className="text-2xl font-bold mb-8" style={{ fontFamily: "Poppins" }}>AI Voice & Text Suite (30 Days)</h3>
+              <div className="space-y-8">
+                {[
+                  {
+                    week: "Week 1",
+                    title: "Setup & Training",
+                    description: "We integrate your systems, train AI agents on your business processes, and configure call routing."
+                  },
+                  {
+                    week: "Week 2",
+                    title: "Initial Learning",
+                    description: "AI agents begin handling calls and texts. We monitor quality and make real-time adjustments."
+                  },
+                  {
+                    week: "Week 3",
+                    title: "Optimization",
+                    description: "Based on call data, we refine agent responses, improve lead qualification accuracy, and boost booking rates."
+                  },
+                  {
+                    week: "Week 4",
+                    title: "Performance Review",
+                    description: "Full analytics review. You see qualified leads, conversion rates, and ROI. Ready to scale or adjust."
+                  }
+                ].map((phase, idx) => (
+                  <div key={idx} className="flex gap-4">
+                    <div className="flex flex-col items-center">
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center font-bold text-black flex-shrink-0">
+                        {idx + 1}
+                      </div>
+                      {idx < 3 && <div className="w-1 h-12 bg-gradient-to-b from-cyan-400 to-transparent mt-2" />}
+                    </div>
+                    <div className="pb-4">
+                      <h4 className="font-bold mb-1" style={{ fontFamily: "Poppins" }}>{phase.week}: {phase.title}</h4>
+                      <p className="text-sm text-muted-foreground">{phase.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Package 2 Timeline */}
+            <div>
+              <h3 className="text-2xl font-bold mb-8" style={{ fontFamily: "Poppins" }}>Complete Lead-to-Booking System (90 Days)</h3>
+              <div className="space-y-8">
+                {[
+                  {
+                    week: "Weeks 1-2",
+                    title: "Full Integration & Setup",
+                    description: "Complete system integration, Meta ads account setup, AI agent training, and CRM configuration."
+                  },
+                  {
+                    week: "Weeks 3-4",
+                    title: "Campaign Launch & Learning",
+                    description: "Meta ads go live. AI agents begin qualifying leads from ads. We collect initial performance data."
+                  },
+                  {
+                    week: "Weeks 5-8",
+                    title: "Optimization & Scaling",
+                    description: "AI agents refine lead qualification. Ads are optimized based on lead quality and conversion data. Lead volume increases."
+                  },
+                  {
+                    week: "Weeks 9-12",
+                    title: "Full Performance & ROI",
+                    description: "System reaches peak efficiency. Full lead pipeline established. Clear ROI metrics and booking conversions visible."
+                  }
+                ].map((phase, idx) => (
+                  <div key={idx} className="flex gap-4">
+                    <div className="flex flex-col items-center">
+                      <div className="w-12 h-12 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center font-bold text-white flex-shrink-0">
+                        {idx + 1}
+                      </div>
+                      {idx < 3 && <div className="w-1 h-12 bg-gradient-to-b from-purple-400 to-transparent mt-2" />}
+                    </div>
+                    <div className="pb-4">
+                      <h4 className="font-bold mb-1" style={{ fontFamily: "Poppins" }}>{phase.week}: {phase.title}</h4>
+                      <p className="text-sm text-muted-foreground">{phase.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="contact" className="py-20 border-t border-border">
         <div className="container text-center">
