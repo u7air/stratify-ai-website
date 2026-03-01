@@ -21,7 +21,7 @@ export default function Home() {
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-purple-500" />
             <span className="font-bold text-lg" style={{ fontFamily: "Poppins" }}>
-              AI Agency
+              Stratify AI
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -37,7 +37,7 @@ export default function Home() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <img 
-            src="https://private-us-east-1.manuscdn.com/sessionFile/6kbbxUjCZWE1ZcDYqCRuk8/sandbox/pm3bcTdaU1kLfiPYDXllLL-img-4_1772045957000_na1fn_bWV0YS1hZHMtc2VjdGlvbg.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNmtiYnhVakNaV0UxWmNEWXFDUnVrOC9zYW5kYm94L3BtM2JjVGRhVTFrTGZpUFlEWGxsTEwtaW1nLTRfMTc3MjA0NTk1NzAwMF9uYTFmbl9iV1YwWVMxaFpITXRjMlZqZEdsdmJnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=FQmi8I3gb-ureBpk~RzWoxbD3nKXJ9buLl-aEVR5iitRXqXdMSdec6IDk~cigXYy2BSMXPJ523VW2O~a6JBh8A-y3dOzzaxK2uTp5IBX5dM8u3fRsLMFkm8JDxSl-mtzrJ0Odsakj1d3KnvFpC47CBBogQxWi-KFys581wHpE7oJzeA9fabpkZrqUgbtEUCrZfTcyeRgFBT5icxY~990tGRr8PFRmxrRMWIlUQxaQxd-C4pyqNLl4s~2s36fWSdmYMejRszT6ajMgJETrLpdqr2iWV1CWjr3W~6quD4SOhNZRk7-cWw3DBIciCZTKyZzhU8cMeH1GHnsNGODUzVKXQ__"
+            src="https://private-us-east-1.manuscdn.com/sessionFile/6kbbxUjCZWE1ZcDYqCRuk8/sandbox/pm3bcTdaU1kLfiPYDXllLL-img-3_1772045957000_na1fn_bGVhZC1tYW5hZ2VtZW50LXNlY3Rpb24.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNmtiYnhVakNaV0UxWmNEWXFDUnVrOC9zYW5kYm94L3BtM2JjVGRhVTFrTGZpUFlEWGxsTEwtaW1nLTNfMTc3MjA0NTk1NzAwMF9uYTFmbl9iGVhZMVpHbGtMR1Y0ZEdsdmJnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=FQmi8I3gb-ureBpk~RzWoxbD3nKXJ9buLl-aEVR5iitRXqXdMSdec6IDk~cigXYy2BSMXPJ523VW2O~a6JBh8A-y3dOzzaxK2uTp5IBX5dM8u3fRsLMFkm8JDxSl-mtzrJ0Odsakj1d3KnvFpC47CBBogQxWi-KFys581wHpE7oJzeA9fabpkZrqUgbtEUCrZfTcyeRgFBT5icxY~990tGRr8PFRmxrRMWIlUQxaQxd-C4pyqNLl4s~2s36fWSdmYMejRszT6ajMgJETrLpdqr2iWV1CWjr3W~6quD4SOhNZRk7-cWw3DBIciCZTKyZzhU8cMeH1GHnsNGODUzVKXQ__"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
@@ -340,7 +340,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
+      {/* Testimonials Section */}
       <section className="py-20 border-t border-border">
         <div className="container">
           <div className="text-center mb-16">
@@ -348,168 +348,68 @@ export default function Home() {
               className="text-4xl md:text-5xl font-bold mb-4"
               style={{ fontFamily: "Poppins" }}
             >
-              Simple, Transparent Pricing
+              What Our Clients Say
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Choose the package that fits your business needs. Both include 24/7 support and seamless integration.
+              Real results from businesses using Stratify AI to transform their sales operations.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Package 1 */}
-            <div className="relative p-8 rounded-2xl border-2 border-border bg-card hover:border-cyan-400 transition-all duration-300">
-              <div className="mb-6">
-                <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Poppins" }}>AI Voice & Text Suite</h3>
-                <p className="text-sm text-muted-foreground mb-4">Perfect for businesses with existing leads</p>
-                <div className="space-y-3 mb-6">
-                  <div>
-                    <p className="text-xs text-muted-foreground mb-1">3-Month Upfront</p>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold">$3,000</span>
-                      <span className="text-muted-foreground text-sm">total</span>
-                    </div>
-                  </div>
-                  <div className="border-t border-border pt-3">
-                    <p className="text-xs text-muted-foreground mb-1">Monthly</p>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold">$1,500</span>
-                      <span className="text-muted-foreground text-sm">/month</span>
-                    </div>
-                  </div>
+          <div className="grid md:grid-cols-3 gap-8">
+            {[
+              {
+                quote: "Stratify AI generated 47 qualified leads in our first 90 days. The AI agents are incredibly natural and our conversion rate increased by 35%.",
+                author: "Sarah Mitchell",
+                company: "Real Estate Group",
+                metric: "47 qualified leads"
+              },
+              {
+                quote: "We reduced our sales cycle from 14 days to 8 days. The AI receptionist handles all our inbound calls perfectly, and our team can focus on closing deals.",
+                author: "James Chen",
+                company: "SaaS Startup",
+                metric: "43% faster sales cycle"
+              },
+              {
+                quote: "The ROI was immediate. Within 30 days, we saw 3x more appointment bookings. This system is a game-changer for our business.",
+                author: "Emma Rodriguez",
+                company: "Consulting Firm",
+                metric: "3x more bookings"
+              }
+            ].map((testimonial, idx) => (
+              <div key={idx} className="p-8 rounded-2xl border border-border bg-card/50 hover:border-cyan-400 transition-all duration-300">
+                <div className="flex gap-1 mb-4">
+                  {[...Array(5)].map((_, i) => (
+                    <span key={i} className="text-cyan-400">★</span>
+                  ))}
                 </div>
-                <div className="bg-cyan-500/10 border border-cyan-500/30 rounded-lg p-3 mb-6">
-                  <p className="text-xs font-semibold text-cyan-400 flex items-center gap-2">
-                    <span>✓</span> 30-Day Money-Back Guarantee
-                  </p>
+                <p className="text-muted-foreground mb-6 italic">"{testimonial.quote}"</p>
+                <div className="border-t border-border pt-4">
+                  <p className="font-bold" style={{ fontFamily: "Poppins" }}>{testimonial.author}</p>
+                  <p className="text-sm text-muted-foreground mb-2">{testimonial.company}</p>
+                  <p className="text-sm font-semibold text-cyan-400">{testimonial.metric}</p>
                 </div>
               </div>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">24/7 Inbound Receptionist Agent</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Outbound Follow-up & Cold Calling Agents</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">AI Text & SMS Agents</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">AI-Powered CRM & Lead Management</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Lead Qualification & Scoring</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Appointment Booking & Calendar Integration</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-black font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Real-time Analytics & Reporting</span>
-                </li>
-              </ul>
-              <Button size="lg" variant="outline" className="w-full">
-                Book a Free Consultation Call
-              </Button>
-            </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-            {/* Package 2 */}
-            <div className="relative p-8 rounded-2xl border-2 border-purple-500 bg-card hover:border-purple-400 transition-all duration-300 ring-1 ring-purple-500/20">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-gradient-to-r from-cyan-400 to-purple-500 text-black px-4 py-1 rounded-full text-xs font-bold">MOST POPULAR</span>
-              </div>
-              <div className="mb-6">
-                <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Poppins" }}>Complete Lead-to-Booking System</h3>
-                <p className="text-sm text-muted-foreground mb-4">Full-funnel solution with lead generation</p>
-                <div className="space-y-3 mb-6">
-                  <div>
-                    <p className="text-xs text-muted-foreground mb-1">3-Month Upfront</p>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold">$5,000</span>
-                      <span className="text-muted-foreground text-sm">total</span>
-                    </div>
-                  </div>
-                  <div className="border-t border-border pt-3">
-                    <p className="text-xs text-muted-foreground mb-1">Monthly</p>
-                    <div className="flex items-baseline gap-2">
-                      <span className="text-3xl font-bold">$2,000</span>
-                      <span className="text-muted-foreground text-sm">/month</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="bg-purple-500/10 border border-purple-500/30 rounded-lg p-3 mb-6">
-                  <p className="text-xs font-semibold text-purple-400 flex items-center gap-2">
-                    <span>✓</span> 90-Day Money-Back Guarantee
-                  </p>
-                </div>
-              </div>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Everything in AI Voice & Text Suite</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Meta Ads Campaign Management</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">AI-Powered Lead Generation & Targeting</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Intelligent Lead Routing to AI Agents</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Campaign Optimization & A/B Testing</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">ROI Tracking & Performance Analytics</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <span className="text-xs text-white font-bold">✓</span>
-                  </span>
-                  <span className="text-sm">Dedicated Account Manager</span>
-                </li>
-              </ul>
-              <Button size="lg" className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-black font-semibold">
-                Book a Free Consultation Call
-              </Button>
-            </div>
+      {/* Pricing CTA Section */}
+      <section className="py-20 border-t border-border bg-card/30">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 
+              className="text-4xl md:text-5xl font-bold mb-6"
+              style={{ fontFamily: "Poppins" }}
+            >
+              Ready to Transform Your Sales?
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Every business is unique. Let's discuss which Stratify AI solution is right for you and how we can help you scale.
+            </p>
+            <Button size="lg" className="bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-black font-semibold">
+              Book Your Free Consultation Call
+            </Button>
           </div>
         </div>
       </section>
@@ -703,6 +603,57 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FAQs Section */}
+      <section className="py-20 border-t border-border">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-4xl md:text-5xl font-bold mb-4"
+              style={{ fontFamily: "Poppins" }}
+            >
+              Frequently Asked Questions
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Everything you need to know about Stratify AI and how it works.
+            </p>
+          </div>
+
+          <div className="max-w-3xl mx-auto space-y-6">
+            {[
+              {
+                question: "How long does it take to get started?",
+                answer: "Most clients are up and running within 1-2 weeks. We handle the integration, AI agent training, and system configuration. Your first week focuses on setup and initial learning, with agents handling calls by week 2."
+              },
+              {
+                question: "What integrations do you support?",
+                answer: "We integrate with most popular CRMs (HubSpot, Salesforce, Pipedrive), calendar systems (Google Calendar, Outlook), and communication platforms. Custom integrations are available for enterprise clients."
+              },
+              {
+                question: "Can I cancel anytime?",
+                answer: "Yes. While we recommend committing to the full period to see optimal results, you can cancel your subscription anytime. If you're not satisfied within the guarantee period, we'll refund you."
+              },
+              {
+                question: "How natural do the AI agents sound?",
+                answer: "Our AI agents use advanced voice synthesis and natural language processing. They sound like real humans, handle complex conversations, and can transfer to your team when needed. Most customers say they can't tell the difference."
+              },
+              {
+                question: "What about data privacy and security?",
+                answer: "We take security seriously. All data is encrypted in transit and at rest, we comply with GDPR and CCPA, and your call recordings are stored securely. You own all your data and can export it anytime."
+              },
+              {
+                question: "What kind of ROI can I expect?",
+                answer: "Most clients see results within 30 days. Common outcomes include 40-50% more qualified leads, 30-40% faster sales cycles, and 3-5x more appointment bookings. Your specific ROI depends on your industry and current processes."
+              }
+            ].map((faq, idx) => (
+              <div key={idx} className="p-6 rounded-xl border border-border hover:border-cyan-400 transition-all duration-300">
+                <h3 className="font-bold mb-3" style={{ fontFamily: "Poppins" }}>{faq.question}</h3>
+                <p className="text-muted-foreground text-sm">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="border-t border-border py-12 bg-card/50">
         <div className="container">
@@ -710,7 +661,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-cyan-400 to-purple-500" />
-                <span className="font-bold" style={{ fontFamily: "Poppins" }}>AI Agency</span>
+                <span className="font-bold" style={{ fontFamily: "Poppins" }}>Stratify AI</span>
               </div>
               <p className="text-sm text-muted-foreground">Intelligent automation for modern sales teams.</p>
             </div>
@@ -740,7 +691,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2026 AI Agency. All rights reserved.</p>
+            <p>&copy; 2026 Stratify AI. All rights reserved.</p>
           </div>
         </div>
       </footer>
