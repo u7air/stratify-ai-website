@@ -19,7 +19,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
-            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663380626562/npYcoS56irkU9VnnMQFbwb/stratify-ai-logo-Rzoam4LQefwpVGT2FSoRph.webp" alt="Stratify AI" className="w-8 h-8" />
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663380626562/npYcoS56irkU9VnnMQFbwb/stratify-ai-logo-colorful-VPhYTqm4VBcLSZWWCD3uKj.webp" alt="Stratify AI" className="w-8 h-8" />
             <span className="font-bold text-lg" style={{ fontFamily: "Poppins" }}>
               Stratify AI
             </span>
@@ -35,7 +35,7 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 opacity-30">
+        <div className="absolute inset-0 opacity-50">
           <img 
             src="https://private-us-east-1.manuscdn.com/sessionFile/6kbbxUjCZWE1ZcDYqCRuk8/sandbox/pm3bcTdaU1kLfiPYDXllLL-img-3_1772045957000_na1fn_bGVhZC1tYW5hZ2VtZW50LXNlY3Rpb24.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvNmtiYnhVakNaV0UxWmNEWXFDUnVrOC9zYW5kYm94L3BtM2JjVGRhVTFrTGZpUFlEWGxsTEwtaW1nLTNfMTc3MjA0NTk1NzAwMF9uYTFmbl9iGVhZMVpHbGtMR1Y0ZEdsdmJnLnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSx3XzE5MjAsaF8xOTIwL2Zvcm1hdCx3ZWJwL3F1YWxpdHkscV84MCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc5ODc2MTYwMH19fV19&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=FQmi8I3gb-ureBpk~RzWoxbD3nKXJ9buLl-aEVR5iitRXqXdMSdec6IDk~cigXYy2BSMXPJ523VW2O~a6JBh8A-y3dOzzaxK2uTp5IBX5dM8u3fRsLMFkm8JDxSl-mtzrJ0Odsakj1d3KnvFpC47CBBogQxWi-KFys581wHpE7oJzeA9fabpkZrqUgbtEUCrZfTcyeRgFBT5icxY~990tGRr8PFRmxrRMWIlUQxaQxd-C4pyqNLl4s~2s36fWSdmYMejRszT6ajMgJETrLpdqr2iWV1CWjr3W~6quD4SOhNZRk7-cWw3DBIciCZTKyZzhU8cMeH1GHnsNGODUzVKXQ__"
             alt="Hero Background"
