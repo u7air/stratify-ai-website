@@ -37,7 +37,7 @@ export default function Home() {
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 opacity-50">
           <img 
-            src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663380626562/keNDPpDBGVukJOUs.png"
+            src="https://d2xsxph8kpxj0f.cloudfront.net/310519663380626562/npYcoS56irkU9VnnMQFbwb/hero-meta-ads-final-S6iaC9dyJLAS97eoQt2cKs.webp"
             alt="Hero Background"
             className="w-full h-full object-cover"
           />
