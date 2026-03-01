@@ -19,7 +19,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="container flex items-center justify-between py-4">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-purple-500" />
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663380626562/npYcoS56irkU9VnnMQFbwb/stratify-ai-logo-Rzoam4LQefwpVGT2FSoRph.webp" alt="Stratify AI" className="w-8 h-8" />
             <span className="font-bold text-lg" style={{ fontFamily: "Poppins" }}>
               Stratify AI
             </span>
@@ -340,6 +340,114 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Packages Section */}
+      <section className="py-20 border-t border-border">
+        <div className="container">
+          <div className="text-center mb-16">
+            <h2 
+              className="text-4xl md:text-5xl font-bold mb-4"
+              style={{ fontFamily: "Poppins" }}
+            >
+              Our Packages
+            </h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Choose the solution that fits your business needs. Let's discuss pricing on your consultation call.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {/* Package 1 */}
+            <div className="relative p-8 rounded-2xl border-2 border-border bg-card hover:border-cyan-400 transition-all duration-300">
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Poppins" }}>AI Voice & Text Suite</h3>
+                <p className="text-sm text-muted-foreground mb-4">Perfect for businesses with existing leads</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-black font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">24/7 Inbound Receptionist Agent</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-black font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">Outbound Follow-up & Cold Calling Agents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-black font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">AI Text & SMS Agents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-black font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">AI-Powered CRM & Lead Management</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-cyan-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-black font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">Lead Qualification & Scoring</span>
+                </li>
+              </ul>
+              <Button size="lg" variant="outline" className="w-full">
+                Learn More
+              </Button>
+            </div>
+
+            {/* Package 2 */}
+            <div className="relative p-8 rounded-2xl border-2 border-purple-500 bg-card hover:border-purple-400 transition-all duration-300 ring-1 ring-purple-500/20">
+              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                <span className="bg-gradient-to-r from-cyan-400 to-purple-500 text-black px-4 py-1 rounded-full text-xs font-bold">MOST POPULAR</span>
+              </div>
+              <div className="mb-6">
+                <h3 className="text-2xl font-bold mb-2" style={{ fontFamily: "Poppins" }}>Complete Lead-to-Booking System</h3>
+                <p className="text-sm text-muted-foreground mb-4">Full-funnel solution with lead generation</p>
+              </div>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-white font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">Everything in AI Voice & Text Suite</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-white font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">Meta Ads Campaign Management</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-white font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">AI-Powered Lead Generation & Targeting</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-white font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">Intelligent Lead Routing to AI Agents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="w-5 h-5 rounded-full bg-purple-400 flex items-center justify-center flex-shrink-0 mt-0.5">
+                    <span className="text-xs text-white font-bold">✓</span>
+                  </span>
+                  <span className="text-sm">Campaign Optimization & A/B Testing</span>
+                </li>
+              </ul>
+              <Button size="lg" className="w-full bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-black font-semibold">
+                Learn More
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="py-20 border-t border-border">
         <div className="container">
@@ -370,10 +478,10 @@ export default function Home() {
                 metric: "43% faster sales cycle"
               },
               {
-                quote: "The ROI was immediate. Within 30 days, we saw 3x more appointment bookings. This system is a game-changer for our business.",
-                author: "Emma Rodriguez",
-                company: "Consulting Firm",
-                metric: "3x more bookings"
+                quote: "Our roofing crew was drowning in leads but couldn't handle them all. Stratify AI's system qualified leads before they reached us, and we closed 28 jobs in 60 days. Best investment we've made.",
+                author: "Marcus Thompson",
+                company: "Thompson Roofing Co.",
+                metric: "28 jobs closed in 60 days"
               }
             ].map((testimonial, idx) => (
               <div key={idx} className="p-8 rounded-2xl border border-border bg-card/50 hover:border-cyan-400 transition-all duration-300">
